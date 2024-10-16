@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "64d8b1c3a8b0d2d73545f9e1"
+  },
+  "employee_id": "E001",
+  "full_name": "Lê Duy Khương",
+  "dob": {
+    "$date": "1990-05-20T00:00:00.000Z"
+  },
+  "gender": "Nam",
+  "username": "leduykhuong",
+  "password": "2911",
+  "contact_info": {
+    "phone": "0909-876-543",
+    "email": "tran.c@example.com",
+    "address": "789 Đường GHI, Quận 2, TP.HCM"
+  },
+  "position": "Nhân viên bảo hiểm",
+  "department": "Bộ phận bảo hiểm",
+  "hire_date": {
+    "$date": "2021-03-01T00:00:00.000Z"
+  },
+  "salary": 15000000,
+  "status": "Đang làm việc"
+}]

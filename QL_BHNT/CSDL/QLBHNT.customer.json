@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "66dbbb4f0ee4de35820ce8f9"
+  },
+  "customer_id": "KH001",
+  "full_name": "Nguyễn Văn An",
+  "dob": {
+    "$date": "1980-01-01T00:00:00.000Z"
+  },
+  "gender": "Nam",
+  "contact_info": {
+    "phone": "123-456-7890",
+    "email": "nguyen.an@example.com",
+    "address": "123 Đường Lê Lợi, Quận 1, TP.HCM"
+  },
+  "policies": [
+    {
+      "policy_number": "P987654321",
+      "policy_type": "Bảo hiểm nhân thọ",
+      "start_date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "end_date": {
+        "$date": "2053-01-01T00:00:00.000Z"
+      },
+      "premium_amount": 20000000,
+      "coverage_amount": 500000000,
+      "status": "Đang hoạt động",
+      "beneficiary": {
+        "full_name": "Nguyễn Thị Diễm Kiều",
+        "relationship": "Vợ ",
+        "contact_info": {
+          "phone": "123-456-7890",
+          "email": "nguyenb@example.com"
+        }
+      },
+      "next_payment_date": {
+        "$date": "2024-04-01T00:00:00.000Z"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "claim_number": "C987654321",
+      "policy_number": "P987654321",
+      "claim_date": {
+        "$date": "2024-08-15T00:00:00.000Z"
+      },
+      "claim_amount": 500000000,
+      "status": "Chờ xử lý",
+      "documents": {
+        "death_certificate": "giay_chung_tu.pdf",
+        "insurance_policy": "ban_sao_hop_dong.pdf",
+        "proof_of_relationship": "tai_lieu_chung_minh.pdf"
+      }
+    }
+  ],
+  "payments": [
+    {
+      "payment_id": "P001",
+      "payment_date": {
+        "$date": "2024-06-01T00:00:00.000Z"
+      },
+      "amount": 20000000,
+      "method": "Chuyển khoản ngân hàng",
+      "status": "Hoàn tất",
+      "payment_type": "policy_premium"
+    }
+  ],
+  "status": "active",
+  "agent_id": "A002"
+},
+{
+  "_id": {
+    "$oid": "66dbbb4f0ee4de35820ce8fa"
+  },
+  "customer_id": "KH002",
+  "full_name": "Trần Thị Bích",
+  "dob": {
+    "$date": "1990-05-05T00:00:00.000Z"
+  },
+  "gender": "Nữ",
+  "contact_info": {
+    "phone": "098-765-4321",
+    "email": "tran.bich@example.com",
+    "address": "456 Đường Trần Hưng Đạo, Quận 5, TP.HCM"
+  },
+  "policies": [
+    {
+      "policy_number": "P123456789",
+      "policy_type": "Bảo hiểm sức khỏe",
+      "start_date": {
+        "$date": "2023-06-01T00:00:00.000Z"
+      },
+      "end_date": {
+        "$date": "2028-06-01T00:00:00.000Z"
+      },
+      "premium_amount": 10000000,
+      "coverage_amount": 300000000,
+      "status": "Đang hoạt động",
+      "beneficiary": {
+        "full_name": "Nguyễn Phan Tùng",
+        "relationship": "Con Trai",
+        "contact_info": {
+          "phone": "123-456-7890",
+          "email": "nguyenb@example.com"
+        }
+      },
+      "next_payment_date": {
+        "$date": "2024-04-01T00:00:00.000Z"
+      }
+    }
+  ],
+  "claims": [],
+  "payments": [
+    {
+      "payment_id": "P002",
+      "payment_date": {
+        "$date": "2024-06-01T00:00:00.000Z"
+      },
+      "amount": 10000000,
+      "method": "Tiền mặt",
+      "status": "Hoàn tất",
+      "payment_type": "policy_premium"
+    }
+  ],
+  "status": "active",
+  "agent_id": "A003"
+}]
